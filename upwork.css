@@ -1,0 +1,353 @@
+*{
+margin: 0px;
+padding:0px;
+box-sizing: border-box;
+font-family:sans-serif;
+
+}
+.Container{
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  padding: 30px;
+  position: sticky;
+
+  }
+.navbar{
+display: flex;
+justify-content: space-between;
+height: 10px;
+margin-left: 1px;
+}
+.navbar_left{
+    display: flex;
+    align-items: center;
+}
+.navbar img{
+    height:  45px;
+    margin-top: -12px;
+}
+
+.finder_list {
+    display: flex;
+    font-size: small;
+    color: black;
+  
+    margin-left: -1%; 
+  }
+  
+  .finder_list li  {
+    display: flex;
+    cursor: pointer;
+ 
+  }
+  .finder_list i {
+  
+   margin-left: 10px;
+  }
+
+.Searchbar{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+
+} 
+
+.select{
+    width: 300px;
+    padding: 10px;
+    background-color:  #ffff;
+    border-radius: 25px;
+    justify-content: space-between;
+    cursor: pointer;
+    display: flex;
+    border: 3px solid whitesmoke;
+    
+        
+}
+.select p{
+    font-size: 15px;
+}
+.Language{
+    border:0;
+    font-size: 15px;
+    width: 65px;
+    cursor: pointer;
+    }
+.log{
+    margin-left: 22px;
+}
+.sign{
+    border: 3px;
+    margin-top: -16px;
+    margin-left: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.log2{
+    width: 100px;
+    padding: 5px; 
+    border: 8px solid green;
+     background-color: green;
+     color: white;
+     font-size: 15px;
+     border-radius: 20px;
+}
+.Secondcontainer{
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    
+  }
+  
+  .list ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin:0px 30%;
+    margin-left: -5px; 
+}
+  
+  .list ul li {
+    list-style: none;
+  }
+  
+  .paragh{
+        margin:50px ;
+       
+}
+.writing h3{
+    width: 40%;
+    height: 40%;
+    font-size: 75px;
+       font-family: 'Roboto Slab',sans-serif;
+       color: green;
+       margin: 0px 1px 0;
+     }
+     .writing p{
+        cursor: pointer;
+        font-size: 20px;
+        font-family: 'Arial',sans-serif;
+        color: gray
+        
+
+     }
+
+     .get{
+        border: 3px;
+        margin: 35px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .start{
+        width: 120px;
+        padding: 5px; 
+        border: 8px solid green;
+         background-color: green;
+         color: white;
+         font-size: 15px;
+         border-radius: 30px;
+    }
+
+    .image1{
+        margin: 10px;
+        position: relative;        
+        left: 60%;  
+        padding: -0px;
+        margin-top: -28%;  
+    }
+    .image1 img{
+        width:40%;
+        height:500px;
+    }
+
+
+    .sites h2{
+          font-size: 19px;
+          color:rgb(160, 222, 165) ;
+          padding: 05px;
+
+    }
+    .images{
+          display:inline-flex;
+          margin-left: 5px;
+         
+          
+        }
+
+.fourth video{
+    margin-left: 5%;
+}        
+        
+.script{
+    margin-left: 45%;
+    margin-top: -360px;
+    
+}
+.script h1{
+    font-family:'Roboto Slab',sans-serif;
+    font-size: 45px;
+    margin: 10px;
+}
+.script h2{
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 25px;
+         margin: 10px;
+
+}
+.script p{
+        font-size: 17px;    
+        margin: 10px;
+        margin-left: 40px;
+    }
+
+    .Signin{
+        border: 3px;
+        margin: 25px;
+        margin-left: 700px;
+    }
+    .in{
+        width: 190px;
+        height: 40px; 
+        border: 8px solid green;
+         background-color: green;
+         color: white;
+         font-size: 17px;
+         border-radius: 20px;
+         cursor: pointer;
+    }
+
+
+    .learn{
+        border: 3px;
+        margin: 25px;
+        margin-left: 900px;
+        margin-top: -65px;
+    }
+    .how{
+        width: 190px;
+        height: 40px; 
+        border: 2px solid green;
+         background-color: white;
+         color: green;
+         font-size: 17px;
+         border-radius: 20px;
+         cursor: pointer;
+    }
+    .ad img{
+       margin: 50px;
+       margin-left: 70px;
+      
+
+    }
+
+
+    .ad1 img{
+        margin: 15px;
+        margin-left: 70px;
+       
+ 
+     }
+     .ad2 img{
+        margin: 15px;
+        margin-left: 70px;
+       
+ 
+     }
+     .dis{
+        width: 90%; 
+        margin: 15px;
+        margin-left: 70px;
+         padding: 1%;
+         background-color: rgb(239, 231, 231);
+         border: 2px solid whitesmoke;
+         border-radius: 20px;
+}
+
+.dis h1{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 35px;
+    margin-top: 1%; 
+}
+
+.dis p{
+margin: 7px;
+font-size: 17px;
+color: gray;
+
+}
+.learn1{
+    border: 3px;
+    margin: 25px;
+    margin-left: 1px;
+    
+}
+.how1{
+    width: 130px;
+    height: 40px; 
+    border: 2px solid green;
+     background-color: white;
+     color: green;
+     font-size: 17px;
+     border-radius: 20px;
+     cursor: pointer;
+}
+.hand img{
+     margin-left: 970px;
+     margin-top: -13%;
+}
+.Main{
+    margin-left: 10px; 
+    margin-top: 6%;
+    
+    padding: 10%;
+    background-color: rgb(3, 30, 3);
+    border: 1px solid rgb(3, 30, 3);
+    border-radius: 20px;  
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    margin-top: -10%;
+    margin-left: -10%;
+  
+  }
+  .footer_box p{
+    margin: 10px 0 15px 0;
+    margin-left: 60px;
+   margin-top: -1px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 14px;
+  }
+  .footer_box h2{
+    margin: 10px 0 15px 0;
+    margin-left: 60px;
+    margin-top: -1px;
+    font-size: 17px;
+    cursor: pointer;
+    color: aliceblue;
+  }
+  .final h2{
+        color: white;
+        margin-left: -40px;
+        margin-top: 50px;
+        font-size: 15px;
+  }
+  
+  .final img{
+    margin-top: -35px;
+    margin-left: 45px;
+    display: inline;
+    justify-content: space-between;
+  }
+  .final2{
+    margin-left: -50px ;
+    margin-top: 20px;
+  }
+
+
